@@ -1,0 +1,247 @@
+header {
+  background-color: #e69cba; /* Light pink background */
+  color: #4b2e83;            /* Purple text color */
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 900px;
+}
+header:hover {
+  background-color: #eb6e9b;
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: all 0.3s ease;
+}
+body {
+  background-color: #fff0f5;  /* Light pink background */
+  color: #333;                /* Default text color */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h2 {
+  font-size: 32px;
+  color: #800080; /* Deep purple */
+  text-align: center;
+  margin-top: 40px;
+  position: relative;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Optional: Add underline with a fancy line effect */
+h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #ff69b4; /* Hot pink underline */
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+h2 {
+  font-size: 32px;
+  text-align: center;
+  color: #6a0dad; /* Purple */
+  margin-top: 50px;
+  position: relative;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: #ff69b4;
+  margin: 10px auto;
+  border-radius: 2px;
+}
+.education {
+  background-color: #fff0f5;
+  border-left: 6px solid #d46fd3;
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 700px;
+  border-radius: 10px;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.education h3 {
+  color: #4b0082;
+  margin-bottom: 10px;
+}
+
+.semester-results {
+  margin-top: 20px;
+}
+
+.semester {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  background-color: #ffe6f0;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #333;
+}
+
+.semester:hover {
+  background-color: #ffd6e8;
+}
+.interests {
+  background-color: #fff0f5;
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 50px auto;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.interests h2 {
+  text-align: center;
+  font-size: 32px;
+  color: #a64ca6;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.interests h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #ff69b4;
+  margin: 10px auto;
+  border-radius: 2px;
+}
+
+.interest-box {
+  background-color: #ffeaf4;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  line-height: 1.7;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.interest-box.favorite {
+  background-color: #ffe0ec;
+  
+}
+
+.interest-box p {
+  margin-bottom: 10px;
+}
+.academic-history {
+  background-color: #ffe6f0;
+  padding: 40px 20px;
+  max-width: 700px;
+  margin: 50px auto;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.academic-history h2 {
+  text-align: center;
+  font-size: 30px;
+  color: #6a1b9a;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.academic-history h2::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 4px;
+  background-color: #ff69b4;
+  margin: 10px auto;
+  border-radius: 2px;
+}
+
+.exam {
+  background-color: #fce4ec;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-left: 5px solid #e91e63;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.exam h3 {
+  margin-top: 0;
+  color: #880e4f;
+  font-size: 20px;
+}
+
+.exam p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+.contact {
+  background-color: #fce4ec;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 15px;
+  max-width: 700px;
+  margin: 50px auto 20px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.contact h2 {
+  font-size: 28px;
+  color: #8e44ad;
+  margin-bottom: 10px;
+}
+
+.contact p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-button {
+  background-color: #4267B2; /* Facebook Blue */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+}
+
+.social-button:hover {
+  background-color: blueviolet;
+}
+
+.footer {
+  text-align: center;
+  background-color: #e69cba;
+  padding: 15px 10px;
+  font-size: 14px;
+  color: #6a1b9a;
+  font-family: 'Segoe UI', sans-serif;
+  border-top: 1px solid #e1bee7;
+  width: 900px;
+  border-radius: 12px;
+}
